@@ -68,8 +68,8 @@ void calculateGPA()
     cout << "How many subjects do you want to calculate GPA for? : ";
     cin >> q;
 
-    vector<float> credits(q);
-    vector<float> grades(q);
+    float* credits = new float[q];
+    float* grades = new float[q];
 
     cout << endl;
     for (int i = 0; i < q; i++)
@@ -92,6 +92,9 @@ void calculateGPA()
     float GPA = weightedGradePoints / totalCredits;
 
     cout << "\n\n\nTotal Credits: " << totalCredits << ". Total GPA: " << GPA << " (on a 4.0 scale)." << endl;
+
+    delete[] credits;
+    delete[] grades;
 
     int inmenu;
     cout << "\n\n\n1. Calculate Again" << endl;
@@ -129,7 +132,7 @@ void calculateCGPA()
     cin >> l;
     cout << "\n\n" << endl;
 
-    vector<float> semrs(l);
+    float* semrs = new float[l];
 
     for (int i = 0; i < l; i++)
     {
@@ -145,6 +148,8 @@ void calculateCGPA()
     }
 
     cout << "CGPA (Cumulative Grade Point Average): " << semtot / l << endl;
+
+    delete[] semrs;
 
     int inmenu;
     cout << "\n\n\n1. Calculate Again" << endl;

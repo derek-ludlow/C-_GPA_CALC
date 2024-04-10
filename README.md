@@ -2,7 +2,7 @@
 
 This program is designed to be a simple tool used by students to calculate their Grade Point Average (GPA) or their Cumulative Grade Point Average (CGPA). I am currently a full time student and just a few weeks ago I was trying to calcualte my GPA for all of my major-specific courses (I am currently studying to get a degree in Computer Science). Its fairly straightforward to calculate, but I wanted to build a simple tool to accomplish this. I also have been wanting to learn the basics of the C++ programming language, and hadnt had any hands on experience with it before this. So, I decided to put these two things together and use building this as an opportunity to learn the fundamentals of C++ by creating this program.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/XzchGvYBUpI)
 
 # Development Environment
 
